@@ -49,6 +49,11 @@ button {
   color: white;
   font-size: 1.8rem;
   cursor: pointer;
+  transition: background 0.3s ease-in;
+}
+
+button:hover {
+  background: #27394e;
 }
 
 /* Nav Section with HERO */
@@ -111,6 +116,7 @@ button {
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .locations-head {
@@ -130,11 +136,22 @@ button {
   right: 0%;
 }
 .moving-cloud-1 {
+  animation: cloudAnimation 3s infinite alternate ease-in-out;
 }
 .moving-cloud-2 {
   top: 20%;
   z-index: -1;
   opacity: 0.5;
+  animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+}
+
+@keyframes cloudAnimation {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
 }
 
 /* media queries */
