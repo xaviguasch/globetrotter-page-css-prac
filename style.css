@@ -100,6 +100,16 @@ button {
   padding: 5rem;
 }
 
+/* locations SECTION */
+
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(./img/new-york-page.png);
+  background-size: cover;
+  background-position: center;
+}
+
 /* media queries */
 
 @media screen and (max-width: 932px) {
