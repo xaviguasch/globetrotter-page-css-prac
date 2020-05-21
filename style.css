@@ -108,6 +108,33 @@ button {
     url(./img/new-york-page.png);
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.locations-head {
+  width: 90%;
+  margin: auto;
+}
+.locations-head h2 {
+  padding: 1rem 0rem;
+  text-decoration: underline;
+}
+.locations-head h3 {
+  padding: 4rem 0rem;
+}
+.cloud {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+.moving-cloud-1 {
+}
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 /* media queries */
