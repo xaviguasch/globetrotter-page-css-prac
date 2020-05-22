@@ -195,6 +195,7 @@ button:hover {
 .card h4,
 p {
   padding: 1rem;
+  line-height: 2rem;
 }
 
 .card-icon {
